@@ -12,7 +12,7 @@ const ShopContext = createContext();
 // Create provider
 export const ShopProvider = ({ children }) => {
 
-  const Port = `http://localhost:4900`;
+  const Port = `https://exerbackend-cm9f.vercel.app`;
 
 
   // const [products , setProducts] = useState([]);

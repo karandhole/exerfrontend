@@ -19,7 +19,7 @@ const handleSignUp = async (e) => {
   // console.log("Form Data:", formData);
   try {
     const response = await axios.post(
-      `http://localhost:4900/signup`,
+      `https://exerbackend-cm9f.vercel.app/signup`,
       formData
     );
     const responseData = response.data;

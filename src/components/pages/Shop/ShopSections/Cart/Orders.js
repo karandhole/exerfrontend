@@ -10,7 +10,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await axios.get("http://localhost:4900/orders/user-orders", {
+        const response = await axios.get("https://exerbackend-cm9f.vercel.app/orders/user-orders", {
           headers: { Authorization: `Bearer ${token}` },
         });
 

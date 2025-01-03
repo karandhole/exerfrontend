@@ -5,7 +5,7 @@ export const AdminContext = createContext();
 
 export const AdminProvider = ({ children }) => {
   
-  const Port = `http://localhost:4900/product`;
+  const Port = `https://exerbackend-cm9f.vercel.app/product`;
 
   // Format price to Indian currency
   const formatPrice = (price) => {

@@ -7,7 +7,7 @@ export const ProductsLists = () => {
   const [error, setError] = useState(""); // Error state for user feedback
 
   const storedToken = localStorage.getItem("token");
-  const backendUrl = "http://localhost:4900/orders";
+  const backendUrl = "https://exerbackend-cm9f.vercel.app/orders";
 
   // Fetch orders from the API
   const fetchOrders = async () => {

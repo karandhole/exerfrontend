@@ -75,7 +75,7 @@ const PlaceOrder = () => {
 
   const [error, setError] = useState(""); // Error handling
   const storedToken = localStorage.getItem("token");
-  const backendUrl = "http://localhost:4900/orders";
+  const backendUrl = "https://exerbackend-cm9f.vercel.app/orders";
 
   // Load Razorpay script dynamically
   useEffect(() => {
