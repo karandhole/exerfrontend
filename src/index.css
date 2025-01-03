@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.ubuntu-sans {
+    font-family:  "Poppins";
+}
+
+.urbanist {
+    font-family:  "Poppins";
+    font-weight: 800;
+        font-style: italic;
+        font-size: x-large;
+        color: #78A083 ;
+}
+
+.Roboto {
+    font-family:  "Poppins";
+}
+
+.Cinzel {    
+    font-family:  "Poppins";
+}
+
+.noto-serif {
+  font-family:  "Poppins";
+}
+
+.fs-smaller {
+    font-size: smaller !important;
+}
+
+.fs-large {
+    font-size: large !important ;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Global scrollbar styles */
+
+::-webkit-scrollbar {
+  width: 0.5px;
+  height: 0.5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0.5px #2f2e2d; 
+  border-radius:1px;
+  background-color:#e9ecef;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 0px;
+}
+

@@ -1,0 +1,11 @@
+.nav-link.active {
+    color: #007bff; /* Highlight color for active link */
+    font-weight: bold; /* Makes the active link bold */
+    border-bottom: 2px solid #007bff; /* Adds an underline to the active link */
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Change color on hover */
+    text-decoration: none; /* Removes underline on hover */
+  }
+  

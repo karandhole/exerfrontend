@@ -1,0 +1,108 @@
+.place-order-container {
+    padding: 20px;
+  }
+  
+  .place-order-content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .delivery-column {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .checkout-column {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-fields {
+    margin-top: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+  }
+  
+  .cart-total h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .price-detail {
+    margin-top: 10px;
+  }
+  
+  .price-detail .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-methods {
+    margin-top: 40px;
+  }
+  
+  .payment-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .payment-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  .payment-option p {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+
+  .place-order-button button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease; /* Smooth transition for all properties */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .place-order-button button:hover {
+    background: white;
+    color: black;
+    transform: scale(1.0); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Increase shadow intensity */
+  }
+  
+  .place-order-button button:active {
+    transform: scale(1); /* Return to original size on click */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+  }
+  
